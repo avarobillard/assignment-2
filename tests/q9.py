@@ -1,0 +1,21 @@
+OK_FORMAT = True
+
+test = {   'name': 'q9',
+    'points': None,
+    'suites': [   {   'cases': [   {'code': '>>> assert np.isclose(lr_accuracy, 0.7753, atol=0.0001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(knn_optimal_accuracy, 0.7760, atol=0.0001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(precision_score(y_test, y_pred_knn_optimal), 0.6845, atol=0.001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(recall_score(y_test, y_pred_knn_optimal), 0.5779, atol=0.001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(f1_score(y_test, y_pred_knn_optimal), 0.6267, atol=0.001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(lr_accuracy, 0.7753, atol=0.0001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(precision_score(y_test, y_pred_lr), 0.6733, atol=0.001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(recall_score(y_test, y_pred_lr), 0.6011, atol=0.001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(f1_score(y_test, y_pred_lr), 0.6352, atol=0.001)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(lr.intercept_[0], -3.3201, atol=0.01)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(lr.coef_[0][0], 5.0086, atol=0.01)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(lr.coef_[0][1], 0.8919, atol=0.01)\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert np.isclose(lr.coef_[0][2], -1.3796, atol=0.01)\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
